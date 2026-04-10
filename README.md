@@ -21,7 +21,6 @@ Meekly is a high-performance, multipurpose Discord bot designed for security, mo
 - **Database**: SQLite with `aiosqlite` for asynchronous data handling.
 - **System**: Monitoring with `psutil`.
 - **AI**: OpenAI API, Google TTS (`gtts`).
-- **Music**: `Wavelink` (Lavalink integration).
 
 ---
 
