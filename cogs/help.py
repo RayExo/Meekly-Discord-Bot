@@ -108,6 +108,29 @@ CATEGORY_COMMANDS = {
         ],
         "description": "Artificial intelligence features for intelligent server interactions."
     },
+    "Roles": {
+        "color": "primary",
+        "commands": [
+            ("roles selection", "Create a self-role menu with a list of roles")
+        ],
+        "Usage": "+roles selection @Valorant @Minecraft @CSGO"
+    },
+    "Social": {
+        "color": "success",
+        "commands": [
+            ("remind", "Set reminders"),
+            ("remind list", "List your active reminders"),
+            ("translate", "Translate text to English (default) or any language")
+        ],
+        "description": "Soical Commands to interact with members and provide fun features like reminders and translation."
+    },
+    "Embed": {
+        "color": "success",
+        "commands": [
+            ("embed create", "Create and manage personalized embeds.")
+        ],
+        "description": "Create custom embeds with a user-friendly interface for announcements, promotions, and more."
+    },
     "Tracker": {
         "color": "primary",
         "commands": [
@@ -255,9 +278,9 @@ class HelpView(LayoutView):
         )
         
         support_btn = Button(
-            label="Support",
+            label="Supoort",
             style=discord.ButtonStyle.link,
-            url=self.bot.support_link
+            url="https://discord.gg/codexdev"
         )
         
         invite_btn = Button(
