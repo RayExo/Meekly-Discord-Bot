@@ -12,7 +12,6 @@ psutil
 collection
 pathlib
 pymongo
-wavelink
 httpx
 discord.ext-context
 tasksio
